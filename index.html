@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPIT-405 lab 2</title>
+</head>
+<body>
+    
+        <!-- The document title is “CPIT-405 lab 2” (<title>) and the page title is “Lab 2: HTML” (<h1>).-->
+        <h1>Lab 2: HTML</h1>
+
+        <!-- Add a link (<a>) to “https://cpit405.gitlab.io”. -->
+        <a href="https://cpit405.gitlab.io" target="_blank">https://cpit405.gitlab.io</a>
+    
+            <!-- In the <body>, add two paragraphs (<p>) with any text you like. Please, separate these two tags with a horizontal rule tag (hr).-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quam fugit sapiente expedita minima cupiditate.</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure incidunt corrupti iste voluptate consectetur!</p>
+
+        
+             <!-- Add a clickable image (link (<a>) with image (<img>)). Use any image and any link you like and be sure to add an alternative text to the image.-->
+        <a href="https://www.kau.edu.sa/Home.aspx?lng=ar"  target="_blank" ><img src="img\KAU_logo.png" alt="KAU_logo"></a>
+
+        <br>
+                
+            <!-- create 5 paragraphs (<p>) of any text and use the following tags inside each paragraph: -->
+        <p>Here's some <strong>Strong text</strong></p>
+        <p>Here's an example of <em>an emphasis/italic text</em></p>
+        <p>Here's an example of superscript: 2 <sup>2</sup> = 4</p>
+        <p>Here's an example of subscript H<sub>2</sub>O</p>
+        <p>Here's an example of <span>span</span></p>
+
+            <!-- Add the following HTML headings to the HTML document. The number of #s below indicates of heading’s level (e.g., # => <h1>, ## => <h2>, etc.).-->
+        <h1>Heading elements </h1>
+
+        <h2>Summary  </h2>
+        <p>  Some text here... </p>
+        <h2>Examples  </h2>
+        <h3>Example 1  </h3>
+        <p>  Some text here... </p>
+        <h3>Example 2  </h3>
+        <p>  Some text here... </p>
+        <h2>See also</h2>
+        <p>  Some text here... </p>
+
+
+        <br>
+                
+        <!-- Add the following lists to your HTML document: -->
+
+        <h1>ordered  / unordered  Lists</h1>
+        <ol>
+            <li>Potato</li>
+            <li>tomato</li>
+            <li>onion</li>
+        </ol>
+
+        <ul>
+            <li>Potato</li>
+            <li>tomato</li>
+            <li>onion</li>
+        </ul>
+        <br>
+        <dl>
+            <dt>Potato</dt>
+            <dd>A type of vegetable used in many dishes like French fries and mashed potatoes.</dd>
+          
+            <dt>Tomato</dt>
+            <dd>A fruit commonly used as a vegetable in salads and sauces like tomato sauce.</dd>
+          
+            <dt>Onion</dt>
+            <dd>A type of vegetable used in cooking to add flavor to food, and is included in many dishes.</dd>
+        </dl>
+        <br>
+
+        <!-- Create the table <table> below where the first row (<tr>) is the heading row (<th>): -->
+
+        <table>
+            <thead>
+                <tr>
+                    <th >Basics</th>
+                    <th >Front-end Frameworks</th>
+                    <th >Server-side frameworks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>React</td>
+                    <td>Spring</td>
+                  </tr>
+                  <tr>
+                    <td>CSS</td>
+                    <td>Angular</td>
+                    <td>Django</td>
+                  </tr>
+                  <tr>
+                    <td>JS</td>
+                    <td>Vue</td>
+                    <td>Laravel</td>
+                  </tr>
+       
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- Create a form (<form>) with two inputs (<input>) for login and password) and a submit button (<input>).-->
+        <form >
+            <label for="username"> Username:</label>
+            <input  id="username" type="text" required>
+            
+            <br>
+            <label for="password"> Password :</label>
+            <input  id="password" type="password" required>
+             
+            <br> 
+            <input type="submit" id="submit" value="login">
+            <input type="reset" value="clear">
+
+        </form>
+</body>
+
+</html>
